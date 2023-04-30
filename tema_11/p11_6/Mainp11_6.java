@@ -23,21 +23,23 @@ public class Mainp11_6 {
             System.out.println("5.Usar maquina Domestica");
             System.out.println("6.Imprimir estado de las maquinas");
 
-            // try {
-            //     opcion = dato.nextInt();
-            // } catch (Exception e) {
-            //     System.out.println("Dato introducido no valido");
-            // }
+             try {
+                 opcion = dato.nextInt();
+             } catch (Exception e) {
+                 System.out.println("Dato introducido no valido");
+             }
 
-            try {
-                while (!dato.hasNextInt()) {
-                    dato.next(); // Leer y descartar el valor no válido
-                    System.out.println("Dato introducido no válido. Introduce un número entero:");
-                }
-                opcion = dato.nextInt();
-            } catch (Exception e) {
-                System.out.println("Dato introducido no válido");
-            }
+             //Lo que esta aqui debajo comentado es la solucion que me dio chatGPT pero que no entiendo 
+             
+            //try {
+            //    while (!dato.hasNextInt()) {
+            //        dato.next(); // Leer y descartar el valor no válido
+            //        System.out.println("Dato introducido no válido. Introduce un número entero:");
+            //    }
+            //    opcion = dato.nextInt();
+            //} catch (Exception e) {
+            //    System.out.println("Dato introducido no válido");
+            //}
 
             switch (opcion) {
 
