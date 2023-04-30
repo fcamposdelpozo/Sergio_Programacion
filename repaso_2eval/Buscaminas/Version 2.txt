@@ -1,0 +1,14 @@
+Clase Casilla{
+	boolean tieneMina;
+	boolean esVisible;
+	int cantidadMinasAdyacentes;
+	boolean tieneBandera;
+}
+
+Casilla 
+	Tablero[][]
+	int numMinas;
+	int numFilas;
+	int numColumnas;
+
+Clase ColocarMinas{}
