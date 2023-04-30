@@ -27,6 +27,7 @@ public class Mainp11_6 {
                  opcion = dato.nextInt();
              } catch (Exception e) {
                  System.out.println("Dato introducido no valido");
+                 dato.nextLine(); // Limpiamos el buffer
              }
 
              //Lo que esta aqui debajo comentado es la solucion que me dio chatGPT pero que no entiendo 
